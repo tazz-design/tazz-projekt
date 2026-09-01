@@ -39,23 +39,22 @@ export default function TrustBand() {
   }, [])
 
   return (
-    <section ref={sectionRef} className="relative h-[340px] overflow-hidden sm:h-[400px]">
+    <section ref={sectionRef} className="relative mt-16 h-[480px] overflow-hidden sm:mt-24 sm:h-[560px]">
       <img
         ref={imgRef}
         src="/images/pumpkin-nights-2.jpg"
         alt="A crowd of guests watching Tazz perform a fire show at the Pumpkin Nights festival"
-        className="absolute inset-x-0 top-1/2 h-[500px] w-full -translate-y-1/2 object-cover object-[50%_60%] will-change-transform sm:h-[600px]"
+        className="absolute inset-x-0 top-1/2 h-[640px] w-full -translate-y-1/2 object-cover object-[50%_75%] will-change-transform sm:h-[760px]"
       />
-      <div className="absolute inset-0 bg-gradient-to-t from-char-950 via-char-950/40 to-char-950/10" />
-      <div className="absolute inset-0 flex items-end">
-        <div className="mx-auto w-full max-w-7xl px-6 pb-10">
-          <p className="font-heading text-sm font-semibold uppercase tracking-wider text-ember-400">
-            Featured Performer
-          </p>
-          <p className="mt-2 max-w-xl text-xl font-medium text-white sm:text-2xl">
-            Live crowds, big festivals, no surprises — seen most recently lighting up{' '}
-            <span className="text-flame-500">Pumpkin Nights</span>.
-          </p>
+      <div className="absolute inset-0 bg-gradient-to-t from-char-950 via-char-950/15 to-transparent" />
+      <div className="absolute inset-0 flex items-start">
+        <div className="mx-auto w-full max-w-7xl px-6 pt-10">
+          <div className="ml-auto max-w-md text-right">
+            <p className="text-xl font-medium text-white sm:text-2xl">
+              You may have seen Tazz around Austin, most recently seen at{' '}
+              <span className="text-flame-500">Pumpkin Nights</span>.
+            </p>
+          </div>
         </div>
       </div>
     </section>

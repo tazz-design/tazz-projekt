@@ -12,14 +12,14 @@ export default function AboutSection() {
               Meet Tazz
             </h2>
             <p className="mt-6 text-zinc-300 leading-relaxed">
-              Tazz has spent years perfecting the craft of fire performance — poi, staff,
-              fans, and fire breathing — for audiences across Austin and beyond. What sets
+              Tazz has spent years perfecting the craft of fire performance, including poi,
+              staff, fans, and fire breathing, for audiences across Austin and beyond. What sets
               Tazz apart isn't just the show: it's the license to back it up.
             </p>
             <p className="mt-4 text-zinc-300 leading-relaxed">
               As a certified <span className="font-semibold text-ember-400">Flame Effects Operator</span>,
               Tazz can work directly with any city's official fire marshal to pull the permits
-              required for open-flame performance — the paperwork that trips up most fire
+              required for open-flame performance, the paperwork that trips up most fire
               acts before they ever get booked. That means venues, planners, and festival
               organizers can book with confidence that the fire code box is checked.
             </p>

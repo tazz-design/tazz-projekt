@@ -6,6 +6,22 @@
       "runtimeExecutable": "npm",
       "runtimeArgs": ["run", "dev"],
       "port": 5173
+    },
+    {
+      "name": "plumber-ui",
+      "url": "http://localhost:5180"
+    },
+    {
+      "name": "hvac-dev",
+      "url": "http://localhost:5181"
+    },
+    {
+      "name": "roofing-dev",
+      "url": "http://localhost:5182"
+    },
+    {
+      "name": "painter-ui",
+      "url": "http://localhost:5183"
     }
   ]
 }

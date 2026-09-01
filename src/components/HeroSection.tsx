@@ -24,7 +24,8 @@ export default function HeroSection() {
           <p className="mt-6 text-lg leading-relaxed text-zinc-300">
             Tazz Fire Entertainment brings professional fire dancing, fire breathing, and
             permitted open-flame effects to weddings, festivals, and corporate events across
-            Austin and Central Texas — backed by an official flame effects operator license.
+            Austin and Central Texas, backed by an official flame effects operator license and
+            over $1,000,000 in liability insurance.
           </p>
 
           <div className="mt-10 flex flex-wrap gap-4">

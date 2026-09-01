@@ -17,7 +17,7 @@ const FAQS = [
   {
     question: 'What types of events is fire performance right for?',
     answer:
-      'Fire dancing and flame effects work well for weddings, private parties, corporate events and brand activations, and festivals or other public events — anywhere a visual, high-energy moment fits the program.',
+      'Fire dancing and flame effects work well for weddings, private parties, corporate events and brand activations, and festivals or other public events, basically anywhere a visual, high-energy moment fits the program.',
   },
   {
     question: 'How much does it cost to book a fire performer?',

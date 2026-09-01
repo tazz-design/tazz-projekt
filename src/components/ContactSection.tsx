@@ -42,7 +42,7 @@ export default function ContactSection() {
               Book Your Event
             </h2>
             <p className="mt-4 max-w-md text-zinc-400">
-              Tell me about your event — date, venue, and what you have in mind — and I'll get
+              Tell me about your event: date, venue, and what you have in mind, and I'll get
               back to you with availability and permit guidance if you need it.
             </p>
 
@@ -128,7 +128,7 @@ export default function ContactSection() {
 
             {status === 'success' && (
               <p className="text-sm text-ember-400">
-                Thanks — your message is in. I'll follow up shortly.
+                Thanks, your message is in. I'll follow up shortly.
               </p>
             )}
             {status === 'error' && (
