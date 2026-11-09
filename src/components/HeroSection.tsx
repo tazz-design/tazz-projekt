@@ -18,7 +18,11 @@ export default function HeroSection() {
           </span>
 
           <h1 className="mt-6 font-heading text-5xl font-bold leading-[1.05] text-white sm:text-6xl">
-            Fire Performance <span className="text-flame-500">Texas</span> Trusts
+            Fire Performance
+            <br />
+            <span className="mt-32 block sm:mt-0 sm:inline-block">
+              <span className="text-flame-500">Texas</span> Trusts
+            </span>
           </h1>
 
           <p className="mt-6 text-lg leading-relaxed text-zinc-300">
