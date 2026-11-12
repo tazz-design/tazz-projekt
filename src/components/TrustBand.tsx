@@ -42,9 +42,9 @@ export default function TrustBand() {
     <section ref={sectionRef} className="relative mt-16 h-[480px] overflow-hidden sm:mt-24 sm:h-[560px]">
       <img
         ref={imgRef}
-        src="/images/pumpkin-nights-2.jpg"
-        alt="A crowd of guests watching Tazz perform a fire show at the Pumpkin Nights festival"
-        className="absolute inset-x-0 top-1/2 h-[640px] w-full -translate-y-1/2 object-cover object-[50%_75%] will-change-transform sm:h-[760px]"
+        src="/images/pumpkin-nights-3.jpg"
+        alt="Tazz spinning a flaming hoop in front of a crowd at the Pumpkin Nights festival"
+        className="absolute inset-x-0 top-1/2 h-[640px] w-full -translate-y-1/2 object-cover object-[50%_35%] will-change-transform sm:h-[760px]"
       />
       <div className="absolute inset-0 bg-gradient-to-t from-char-950 via-char-950/15 to-transparent" />
       <div className="absolute inset-0 flex items-start">

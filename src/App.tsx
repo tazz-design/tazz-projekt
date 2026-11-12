@@ -1,5 +1,6 @@
 import { Routes, Route } from 'react-router-dom'
 import { ResponsiveProvider } from './context/ResponsiveContext'
+import FlameIntro from './components/FlameIntro'
 import Nav from './components/Nav'
 import HeroSection from './components/HeroSection'
 import TrustBand from './components/TrustBand'
@@ -30,6 +31,7 @@ function HomePage() {
 function App() {
   return (
     <ResponsiveProvider>
+      <FlameIntro />
       <Nav />
       <main className="pt-20">
         <Routes>
