@@ -61,7 +61,7 @@ export default function ContactSection() {
               </p>
               <p>
                 <span className="font-heading font-semibold text-white">Based in: </span>
-                Austin, TX &mdash; touring Central Texas
+                Austin, TX, touring Central Texas
               </p>
             </div>
           </div>

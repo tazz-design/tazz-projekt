@@ -1,4 +1,5 @@
 import Carousel from './Carousel'
+import MiniFlame from './MiniFlame'
 
 const IMAGES = [
   { src: '/images/gallery-1.jpg', alt: 'Tazz spinning a flaming rope dart overhead' },
@@ -16,7 +17,10 @@ export default function GallerySection() {
     <section id="gallery" className="bg-char-950 py-24">
       <div className="mx-auto max-w-7xl px-6">
         <div className="max-w-2xl">
-          <h2 className="font-heading text-3xl font-bold text-white sm:text-4xl">Gallery</h2>
+          <h2 className="flex items-center gap-2 font-heading text-3xl font-bold text-white sm:text-4xl">
+            Gallery
+            <MiniFlame size={22} delay={90} />
+          </h2>
           <p className="mt-4 text-zinc-400">A look at the show, live and unfiltered.</p>
         </div>
 

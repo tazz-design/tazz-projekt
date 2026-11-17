@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import { useResponsive } from '../context/ResponsiveContext'
+import MiniFlame from './MiniFlame'
 
 const LINKS = [
   { href: '#services', label: 'Services' },
@@ -16,8 +17,10 @@ export default function Nav() {
   return (
     <header className="fixed top-0 left-0 right-0 z-50 h-20 border-b border-white/10 bg-char-950/90 backdrop-blur-md">
       <div className="mx-auto flex h-full max-w-7xl items-center justify-between px-6">
-        <a href="#top" className="font-heading text-lg font-bold tracking-wide text-white">
+        <a href="#top" className="flex items-center gap-1.5 font-heading text-lg font-bold tracking-wide text-white">
           TAZZ <span className="text-flame-500">FIRE</span>
+          <MiniFlame size={16} delay={0} />
+          <MiniFlame size={13} delay={260} />
         </a>
 
         {!isMobile && (

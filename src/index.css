@@ -48,6 +48,39 @@
   }
 }
 
+@keyframes flame-dance {
+  0%, 100% {
+    transform: scale(1, 1) rotate(-3deg);
+  }
+  25% {
+    transform: scale(0.9, 1.08) rotate(2deg);
+  }
+  50% {
+    transform: scale(1.06, 0.94) rotate(-2deg);
+  }
+  75% {
+    transform: scale(0.95, 1.05) rotate(3deg);
+  }
+}
+
+@keyframes flame-glow {
+  0%, 100% {
+    opacity: 0.6;
+    transform: scale(0.9);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1.15);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  [data-flame-icon] svg,
+  [data-flame-icon] span {
+    animation: none !important;
+  }
+}
+
 @layer components {
   .btn-primary {
     @apply inline-flex items-center justify-center rounded-md bg-fire-gradient px-6 py-3 font-heading font-semibold text-white shadow-lg shadow-flame-600/30 hover:brightness-110 cursor-pointer focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ember-400 disabled:pointer-events-none disabled:opacity-50 transition-all;

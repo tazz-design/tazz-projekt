@@ -1,3 +1,5 @@
+import MiniFlame from './MiniFlame'
+
 export default function Footer() {
   const year = new Date().getFullYear()
 
@@ -6,8 +8,9 @@ export default function Footer() {
       <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-4 px-6 sm:flex-row">
         <div className="flex items-center gap-3">
           <img src="/images/logo-mark.png" alt="Tazz Fire Entertainment logo" className="h-9 w-9 rounded-full" />
-          <p className="font-heading text-sm font-semibold text-white">
+          <p className="flex items-center gap-1.5 font-heading text-sm font-semibold text-white">
             TAZZ <span className="text-flame-500">FIRE</span> ENTERTAINMENT
+            <MiniFlame size={14} delay={140} />
           </p>
         </div>
         <nav className="flex gap-6 text-sm text-zinc-400">
