@@ -42,7 +42,7 @@ export default function AboutSection() {
           <div className={isMobile ? 'order-1' : ''}>
             <img
               src="/images/hero-1.jpg"
-              alt="Tazz performing a single-flame fire staff routine at night"
+              alt="Tazz, an Austin fire dancer, performing a single-flame fire staff routine at night"
               className="aspect-[4/5] w-full rounded-2xl object-cover shadow-2xl shadow-black/50"
             />
           </div>

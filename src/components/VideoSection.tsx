@@ -25,12 +25,38 @@ function useAutoPlayOnView() {
   return videoRef
 }
 
+const VIDEO_SCHEMA = {
+  '@context': 'https://schema.org',
+  '@graph': [
+    {
+      '@type': 'VideoObject',
+      name: 'Austin Fire Dancer Tazz - Live Performance Reel',
+      description:
+        'Tazz, a licensed Austin, Texas fire dancer, performing a live fire show on stage.',
+      thumbnailUrl: 'https://www.tazzfireentertainment.com/images/tazz-1-poster.jpg',
+      contentUrl: 'https://www.tazzfireentertainment.com/videos/tazz-1.mp4',
+    },
+    {
+      '@type': 'VideoObject',
+      name: 'Austin Fire Dancer Tazz - Fire Hoop Performance',
+      description:
+        'Tazz, a licensed Austin, Texas fire dancer, performing a fire hoop routine in front of a live crowd.',
+      thumbnailUrl: 'https://www.tazzfireentertainment.com/images/fire-hoop-poster.jpg',
+      contentUrl: 'https://www.tazzfireentertainment.com/videos/fire-hoop-clip.mp4',
+    },
+  ],
+}
+
 export default function VideoSection() {
   const leftVideoRef = useAutoPlayOnView()
   const rightVideoRef = useAutoPlayOnView()
 
   return (
     <section className="bg-char-950 py-24">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(VIDEO_SCHEMA) }}
+      />
       <div className="mx-auto max-w-7xl px-6">
         <div className="grid grid-cols-1 items-center gap-12 lg:grid-cols-[1fr_auto_1fr]">
           <div className="order-1 flex justify-center">

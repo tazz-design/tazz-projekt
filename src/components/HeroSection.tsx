@@ -34,7 +34,7 @@ export default function HeroSection() {
       <div className="px-6 pt-6 sm:contents">
         <img
           src="/images/hero-3.jpg"
-          alt="Tazz, a fire performer, spinning a flaming four-torch fire fork during a night performance"
+          alt="Tazz, an Austin, Texas fire dancer, spinning a flaming four-torch fire fork during a night performance"
           fetchPriority="high"
           decoding="async"
           className="h-72 w-full rounded-2xl object-cover object-[60%_35%] shadow-[0_0_35px_8px_rgba(249,114,47,0.3)] brightness-110 saturate-[1.15] sm:absolute sm:inset-0 sm:h-full sm:w-full sm:rounded-none sm:shadow-none"
